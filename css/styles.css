@@ -1,0 +1,177 @@
+html {
+  margin: 0;
+}
+
+body {
+ background-color: #E5E5E5;
+ font-family: verdana;
+ font-size: 11px;
+}
+
+div {
+  border: 1px solid #f0f;
+}
+
+a, a:hover, a:visited {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p {
+    line-height: 120%;
+    margin: 0 0 1rem 0;
+}
+
+h4 {
+  padding: 0  0 .35rem 1rem;
+}
+
+
+.container {
+  width: 800px;
+  margin: 0 auto 0 auto;
+  height: 100%;
+
+}
+
+.header {
+  background-color: #103593;
+  height: 96px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav {
+ background-color: #7197C6;
+ height: 26px;
+ display: flex;
+ flex-wrap: nowrap;
+ align-items: center;
+ /* justify-content: center; */
+
+}
+
+.nav ul {
+  margin: 0 0 0 1rem;
+  /* border: 1px solid #f00; */
+}
+
+.nav ul li {
+  display: inline;
+  color: #fff;
+  /* margin: 0 2px 0 0; */
+}
+
+.nav ul li::after {
+  content: "|";
+  color: #103593;
+  margin-left: 5px;
+}
+
+.nav ul li:last-of-type::after {
+  content: "";
+}
+
+.body-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.bio {
+  margin-top: 20px;
+}
+
+.stat {
+  border: 2px solid #7197C6;
+}
+
+.stat h4 {
+  background-color: #7197C6;
+  color: #fff;
+  /* margin-right: -.5rem; */
+  /* width: 100%; */
+  font-size: 13px;
+  margin: 0;
+}
+
+.contact {
+  height:120px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: flex-start;
+  color: #00f;
+  padding: 1rem 0 0 0;
+}
+
+.content p {
+  flex: 1 1 40%;
+}
+
+.link {
+  border: 1px solid #7197C6;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.link h5, .link p {
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+
+.row-1 {
+  display: flex;
+  align-content: flex-start;
+  background-color: #d5e7fb;
+  border: 2px solid white;
+
+}
+
+.right-box {
+  background-color: black;
+}
+
+.left-col {
+  width: 35%;
+}
+
+.column-1 {
+  flex: 1 1 30%;
+  background-color: #b1d0f0;
+
+}
+.column-1 h5 {
+  text-align: left;
+  margin: 0px;
+  color: #326699;
+}
+
+.column {
+  flex: 1 1 70%;
+}
+.column p {
+  background-color: #d5e7fb;
+  padding: 2px;
+}
+
+.tInterest {
+    border: 2px solid #7197C6;
+
+}
